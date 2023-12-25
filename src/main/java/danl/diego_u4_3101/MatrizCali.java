@@ -4,7 +4,7 @@ public class MatrizCali {
     public static void main(String[] Diego){
         byte b,c,d;
         float p,r,t,y;
-        byte ca[]=new byte [5];
+        byte ca[][]=new byte [5][5];
         String mat[]={"Cal.Dif","Mat.Dis","Fun.Pro","Fun.Inv","Quimica","Des.Sus"};
         String unid[]={"U1","U2","U3","U4","U5"};
         System.out.print("         ");
@@ -19,10 +19,10 @@ public class MatrizCali {
             p=0;
             System.out.print(mat[c]);
             for(b=0;b<5;b++){
-                ca[b]=Byte.parseByte(JOptionPane.showInputDialog("Ingresa "
+                ca[c][b]=Byte.parseByte(JOptionPane.showInputDialog("Ingresa "
                         + "tu calificación de esta Unidad"));
-                System.out.print(" "+ca[b]+"   ");
-                p+=ca[b];
+                System.out.print(" "+ca[c][b]+"   ");
+                p+=ca[c][b];
             }
             r=p/5;
             System.out.print(r);
