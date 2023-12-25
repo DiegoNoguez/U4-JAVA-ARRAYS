@@ -4,7 +4,7 @@ public class MatrizCali {
     public static void main(String[] Diego){
         byte b,c,d;
         float p,r,t,y;
-        byte ca[][]=new byte [5][5];
+        byte ca[][]=new byte [6][5];
         String mat[]={"Cal.Dif","Mat.Dis","Fun.Pro","Fun.Inv","Quimica","Des.Sus"};
         String unid[]={"U1","U2","U3","U4","U5"};
         System.out.print("         ");
